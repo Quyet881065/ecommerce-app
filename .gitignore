@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# dotenv files (ignore all .env except frontend)
+.env
+**/.env
+
+.env.*.local
+**/.env.*.local
+
+# Build folders
+build/
+dist/
+**/build/
+**/dist/
+
+# System
+.DS_Store
+.vscode/
